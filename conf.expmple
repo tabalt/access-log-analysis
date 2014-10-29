@@ -1,0 +1,25 @@
+#!/bin/bash
+
+################################################
+# global config
+################################################
+
+
+# your log file's path
+log_path=/usr/local/nginx/logs/archive
+
+# put you email here to get email report
+report_email=""
+
+# item number for top
+top_item_num=50
+
+# log file suffix
+log_file_suffix=`date -d "yesterday" +%Y%m%d`
+
+# domain and log file config
+log_config="
+www.abc.com|$log_path/www_abc_com_access.log-$log_file_suffix
+api.abc.com|$log_path/api_abc_com_access.log-$log_file_suffix
+"
+
