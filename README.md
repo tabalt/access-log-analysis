@@ -1,7 +1,7 @@
 access log analysis
 ==================
 
-分析访问日志，可通过终端或邮件的形式接收、显示分析报告。
+分析访问日志，可通过终端显示或邮件发送分析报告。
 
 ### 一、下载
 
@@ -42,7 +42,6 @@ access log analysis
 			www.abc.com|$log_path/www_abc_com_access.log-$log_file_suffix
 			api.abc.com|$log_path/api_abc_com_access.log-$log_file_suffix
 			"
-
 
 ### 三、使用
 
